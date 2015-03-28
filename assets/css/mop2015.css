@@ -312,6 +312,10 @@ ul {
     #sermon-archive .sermon-preview:hover .background {
       opacity: 1; }
 
+#hero-give {
+  background-color: #6B8E23;
+  color: #fff; }
+
 .hero {
   padding: 50px 0;
   background-position: center center;
@@ -327,6 +331,10 @@ ul {
     border-color: #4D454D;
     background-color: transparent;
     color: #4D454D; }
+
+#standard {
+  background-color: #4D454D;
+  color: #00CED1; }
 
 #visit {
   color: #999; }

@@ -463,6 +463,11 @@ ul {
 
 }
 
+#hero-give {
+	background-color: $accent-color-three;
+	color: #fff;
+}
+
 .hero {
 	padding: 50px 0;
 	background-position: center center;
@@ -484,6 +489,11 @@ ul {
 		background-color: transparent;
 		color: $base-color-one;
 	}
+}
+
+#standard {
+	background-color: $base-color-one;
+	color: $accent-color-one;
 }
 
 #visit {
