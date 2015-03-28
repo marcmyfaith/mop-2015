@@ -59,10 +59,10 @@
 		<div id="visit" class="hero container-fluid content">
 			<div class="row text-center">
 				<h3>9AM Every Sunday</h3>
-				<p>Within a couple of hours, you’ll have received everything you need for a new week without disrupting your Sunday. Enter your address to experience Monument of Praise.</p>
+				<p>Within a couple of hours, you’ll have received everything you need for a new week without disrupting your Sunday. Enter your address for directions to Monument of Praise.</p>
 				<form class="form-inline" action="http://maps.google.com/maps" method="get" target="_blank">
 					<div class="form-group">
-						<input type="text" class="form-control input-lg" name="saddr" placeholder="321 Oakview Rd, High Point, NC">
+						<input type="text" class="form-control input-lg" name="saddr" placeholder="Your Address">
 					</div>
 					<button class="btn btn-default">Get Directions</button>
 					<input type="hidden" name="daddr" value="321 Oakview Rd, High Point, NC 27265" />

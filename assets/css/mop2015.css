@@ -63,7 +63,7 @@ p {
     letter-spacing: 1px; }
 
 .row {
-  margin: 0 50px; }
+  padding: 0 50px; }
 
 #navigation {
   background-color: transparent;
@@ -426,6 +426,9 @@ p {
 
   .parallax-window {
     min-height: 200px;
-    background: transparent; } }
+    background: transparent; }
+
+  #visit .input-lg {
+    width: 100%; } }
 
 /*# sourceMappingURL=mop2015.css.map */

@@ -108,7 +108,7 @@ p {
 }
 
 .row {
-	margin: 0 50px;
+	padding: 0 50px;
 }
 
 #navigation {
@@ -645,6 +645,14 @@ p {
 	.parallax-window {
 	    min-height: 200px;
 	    background: transparent;
+	}
+
+	#visit {
+
+		.input-lg {
+			width: 100%;
+		}
+
 	}
 
 }
