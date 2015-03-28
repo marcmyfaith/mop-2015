@@ -12,20 +12,6 @@ jQuery('document').ready(function($){
 		$('#side-menu').removeClass('open');
 	});
 
-	$('.play-button').on('click', function(){
-
-		if ( $(this).hasClass('playing') ) {
-			
-			$('#video-background')[0].pause();
-
-		} else {
-
-			$('#video-background')[0].play();
-
-		}
-
-	});
-
 	// Change navigation background color
 	$(window).scroll(function ( scroll_event ) {
 		
