@@ -53,6 +53,10 @@ p {
 	margin-bottom: 30px;
 }
 
+ul {
+	margin-bottom: 30px;
+}
+
 .fade {
 	opacity: 0;
 }
@@ -385,6 +389,11 @@ p {
 #hero-watch-live {
 	background-color: #4D454D;
 	padding-top: 130px;
+	color: #fff;
+
+	h3 {
+		color: $accent-color-one;
+	}
 
 	#video-holder {
 		padding: 0;
@@ -580,10 +589,10 @@ p {
 		}
 	}
 
-	img {
-		max-height: 50px;
-		margin: 20px 0 15px 0;
+	#logo {
+		margin-bottom: 20px;
 	}
+
 }
 
 #location-bar {
@@ -627,6 +636,23 @@ p {
 
 @media ( max-width: 768px ) {
 
+	video {
+		display: none;
+	}
+
+	.parallax-window {
+	    min-height: 200px;
+	    background: transparent;
+	}
+
+	#visit {
+
+		.input-lg {
+			width: 100%;
+		}
+
+	}
+
 	#navigation {
 		background-color: #222;
 
@@ -657,19 +683,24 @@ p {
 		}
 
 	}
-	video {
-		display: none;
+
+	#hero-watch-live {
+		padding-top: 0;
+
+		.row {
+			padding: 0;
+		}
+
+		#content-area {
+			padding: 0 20px;
+		}
+
 	}
 
-	.parallax-window {
-	    min-height: 200px;
-	    background: transparent;
-	}
+	#footer {
 
-	#visit {
-
-		.input-lg {
-			width: 100%;
+		#logo {
+			margin-top: 20px;
 		}
 
 	}

@@ -26,6 +26,9 @@ p {
   margin: 0 auto;
   margin-bottom: 30px; }
 
+ul {
+  margin-bottom: 30px; }
+
 .fade {
   opacity: 0; }
 
@@ -262,7 +265,10 @@ p {
 
 #hero-watch-live {
   background-color: #4D454D;
-  padding-top: 130px; }
+  padding-top: 130px;
+  color: #fff; }
+  #hero-watch-live h3 {
+    color: #00CED1; }
   #hero-watch-live #video-holder {
     padding: 0; }
 
@@ -391,9 +397,8 @@ p {
     #footer ul li {
       line-height: 18px;
       color: #999; }
-  #footer img {
-    max-height: 50px;
-    margin: 20px 0 15px 0; }
+  #footer #logo {
+    margin-bottom: 20px; }
 
 #location-bar {
   background-color: #4D454D;
@@ -417,6 +422,16 @@ p {
         margin: 0; }
 
 @media (max-width: 768px) {
+  video {
+    display: none; }
+
+  .parallax-window {
+    min-height: 200px;
+    background: transparent; }
+
+  #visit .input-lg {
+    width: 100%; }
+
   #navigation {
     background-color: #222; }
     #navigation .row {
@@ -430,14 +445,14 @@ p {
     #hero-video .sermon-player-hero h2 {
       font-size: 64px; }
 
-  video {
-    display: none; }
+  #hero-watch-live {
+    padding-top: 0; }
+    #hero-watch-live .row {
+      padding: 0; }
+    #hero-watch-live #content-area {
+      padding: 0 20px; }
 
-  .parallax-window {
-    min-height: 200px;
-    background: transparent; }
-
-  #visit .input-lg {
-    width: 100%; } }
+  #footer #logo {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=mop2015.css.map */
