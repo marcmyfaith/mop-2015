@@ -95,6 +95,8 @@ ul {
   #navigation a:hover {
     background-color: transparent;
     color: inherit; }
+  #navigation ~ .hero {
+    padding-top: 130px; }
 
 #side-menu {
   background: #222;
@@ -265,8 +267,8 @@ ul {
 
 #hero-watch-live {
   background-color: #4D454D;
-  padding-top: 130px;
-  color: #fff; }
+  color: #fff;
+  border-bottom: 1px solid #555; }
   #hero-watch-live h3 {
     color: #00CED1; }
   #hero-watch-live #video-holder {

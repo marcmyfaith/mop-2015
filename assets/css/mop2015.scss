@@ -155,6 +155,10 @@ ul {
 
 	}
 
+	& ~ .hero {
+		padding-top: 130px;
+	}
+
 }
 
 #side-menu {
@@ -388,8 +392,8 @@ ul {
 
 #hero-watch-live {
 	background-color: #4D454D;
-	padding-top: 130px;
 	color: #fff;
+	border-bottom: 1px solid #555;
 
 	h3 {
 		color: $accent-color-one;
@@ -461,11 +465,13 @@ ul {
 	}
 
 }
+
 .hero {
 	padding: 50px 0;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
 }
 
 #statement {
