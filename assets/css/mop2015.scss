@@ -155,6 +155,10 @@ ul {
 
 	}
 
+	&.dark {
+		background-color: $base-color-one;
+	}
+
 }
 
 #side-menu {
@@ -493,7 +497,6 @@ ul {
 
 #standard {
 	background-color: $base-color-one;
-	color: $accent-color-one;
 }
 
 #visit {

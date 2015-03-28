@@ -52,7 +52,7 @@
 			<div class="row text-center">
 				<h3>A Modern Church With Traditional Values</h3>
 				<p>Serving High Point, Thomasville and Lexington, NC</p>
-				<a class="btn btn-default">Our Story</a>
+				<a class="btn btn-default" href="<?php echo home_url('our-story'); ?>">Our Story</a>
 			</div>
 		</div>
 		<div class="parallax-window" data-parallax="scroll" data-image-src="http://maps.googleapis.com/maps/api/staticmap?center=High+Point,+NC&zoom=13&scale=2&size=2000x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:red%7Clabel:1%7C321+Oakview+Rd,+High+Point,+NC+27265"></div>

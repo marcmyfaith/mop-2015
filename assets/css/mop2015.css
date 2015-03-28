@@ -95,6 +95,8 @@ ul {
   #navigation a:hover {
     background-color: transparent;
     color: inherit; }
+  #navigation.dark {
+    background-color: #4D454D; }
 
 #side-menu {
   background: #222;
@@ -333,8 +335,7 @@ ul {
     color: #4D454D; }
 
 #standard {
-  background-color: #4D454D;
-  color: #00CED1; }
+  background-color: #4D454D; }
 
 #visit {
   color: #999; }
