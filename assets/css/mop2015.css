@@ -422,6 +422,10 @@ p {
       font-size: 64px; }
 
   video {
-    display: none; } }
+    display: none; }
+
+  .parallax-window {
+    min-height: 200px;
+    background: transparent; } }
 
 /*# sourceMappingURL=mop2015.css.map */
