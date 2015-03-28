@@ -22,7 +22,7 @@ Template Name: Watch Live
 				</ul>
 			</div>
 		</div>
-		<div id="hero-watch-live" class="hero container-fluid">
+		<div id="hero-watch-live" class="hero container-fluid pad-top">
 			<div class="row">
 				<div id="video-holder" class="col-md-7">
 					<iframe width="100%" height="500" src="http://www.ustream.tv/embed/7223948?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe>

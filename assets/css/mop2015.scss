@@ -155,10 +155,6 @@ ul {
 
 	}
 
-	& ~ .hero {
-		padding-top: 130px;
-	}
-
 }
 
 #side-menu {
@@ -212,6 +208,7 @@ ul {
 #hero-video {
 	background-color: $base-color-one;
 	padding: 0;
+	padding-top: 0;
 	max-height: 650px;
 	overflow: hidden;
 	position: relative;
@@ -471,6 +468,10 @@ ul {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	&.pad-top {
+		padding-top: 130px;
+	}
 
 }
 

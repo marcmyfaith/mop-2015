@@ -17,7 +17,7 @@
 				</ul>
 			</div>
 		</div>
-		<div id="hero-sermon-series" class="hero container-fluid">
+		<div id="hero-sermon-series" class="hero container-fluid pad-top">
 			<div class="row text-center">
 				<h5>Current Sermon Series</h5>
 				<h3>Redemption</h3>
