@@ -1,6 +1,3 @@
-<?php
-/** Template Name: Our Story **/
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>

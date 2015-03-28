@@ -49,7 +49,7 @@
 			<div class="row text-center">
 				<h3>Our Testimonies Help Each Other</h3>
 				<p>If you've visited one of our services, we'd love to hear how the word has impacted your life.</p>
-				<a class="btn btn-default">Testify</a>
+				<a class="btn btn-default" href="<?php echo home_url('testify'); ?>">Testify</a>
 			</div>
 		</div>
 		<?php get_template_part( 'views/footer' ); ?>
