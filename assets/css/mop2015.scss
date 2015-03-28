@@ -627,6 +627,24 @@ p {
 
 @media ( max-width: 768px ) {
 
+	#navigation {
+		background-color: #222;
+
+		.row {
+			padding: 0 20px;
+		}
+
+		h1#logo {
+
+			img {
+				width: inherit;
+				height: 60px;
+			}
+
+		}
+
+	}
+
 	#hero-video {
 
 		.sermon-player-hero {
