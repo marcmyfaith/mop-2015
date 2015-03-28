@@ -20,7 +20,7 @@
 			</ul>
 		</div>
 		<div class="col-md-3">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/monument-logo-white.png" />
+			<img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/monument-logo-white.png" width="121" height="50" />
 			<p>&copy; <?php echo date('Y'); ?> Monument of Praise<br />All Rights Reserved.</p>
 		</div>
 	</div>
