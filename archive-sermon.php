@@ -1,8 +1,3 @@
-<?php
-/*
-Template Name: Sermons
-*/
-?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -47,9 +42,6 @@ Template Name: Sermons
 						<p><?php _e( 'There are no sermons published at this time.' ); ?></p>
 					<?php endif; ?>
 				</div>
-				<!-- <div class="col-md-4">
-					<h2>Sermon Categories</h2>
-				</div> -->
 			</div>
 		</div>
 		<!-- <div id="hero-testify" class="hero container-fluid">
@@ -57,45 +49,7 @@ Template Name: Sermons
 				<a class="btn btn-default">More Sermons</a>
 			</div>
 		</div> -->
-		<div id="footer" class="hero container-fluid">
-			<div class="row">
-				<div class="col-md-3">
-					<h3>Service Times</h3>
-					<ul>
-						<li>Sunday 9AM</li>
-						<li>Tuesday 7PM</li>
-						<li>Thursday 6:30PM</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<h3>Address</h3>
-					<p>321 Oakview Rd.<br />High Point, NC 27265</p>
-				</div>
-				<div class="col-md-3">
-					<h3>Contact Info</h3>
-					<ul>
-						<li>info@monumentofpraise.org</li>
-						<li>(336) 887-5673</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<p>&copy; <?php echo date('Y'); ?> Monument of Praise<br />All Rights Reserved.</p>
-				</div>
-			</div>
-		</div>
-		<div id="location-bar" class="container-fluid">
-			<div class="row text-center">
-				<ul id="location-menu">
-					<li>Visit one of our other locations</li>
-					<li><i class="fa fa-map-marker"></i></li>
-					<li><a href="http://newjc.org">Greensboro, NC</a></li>
-					<li>|</li>
-					<li><a href="#">High Point, NC</a></li>
-					<li>|</li>
-					<li><a href="http://newjc.org/locations/amazing-grace-south-africa">London, South Africa</a></li>
-				</ul>
-			</div>
-		</div>
+		<?php get_template_part( 'views/footer' ); ?>
 		<?php wp_footer(); ?>
 	</body>
 </html>
