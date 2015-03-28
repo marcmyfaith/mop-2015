@@ -43,8 +43,8 @@
 			<div class="row text-center">
 				<h5>Current Sermon Series</h5>
 				<h3>Redemption</h3>
-				<p>In preparation for the Easter Season, Dr. Williams imparts a life changing word about the death, burial and resurrection of our Lord and Savior, Jesus Christ.</p>
-				<a class="btn btn-default white">Sermons</a>
+				<p>In preparation for the Easter Holy Day, Dr. Williams imparts a life changing word about the death, burial and resurrection of our Lord and Savior, Jesus Christ.</p>
+				<a class="btn btn-default white" href="<?php echo home_url('sermons'); ?>">Sermons</a>
 			</div>
 		</div>
 		<div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri(); ?>/assets/images/steeple-top.jpg"></div>
