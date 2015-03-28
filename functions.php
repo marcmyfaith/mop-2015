@@ -6,6 +6,7 @@ Class MOP_2015 {
 		
 		add_theme_support( 'post-thumbnails' );
 		add_action( 'wp_enqueue_scripts', array( $this, 'load_includes' ) );
+		add_action( 'after_setup_theme', array( $this, 'menus' ) );
 
 	}
 
@@ -20,6 +21,10 @@ Class MOP_2015 {
 		wp_enqueue_script( 'parallax', get_template_directory_uri() . '/assets/js/parallax-js/parallax.min.js', array('jquery'), '1.0', true );
 		wp_enqueue_script( 'mop2015', get_template_directory_uri() . '/assets/js/mop2015.js', array('jquery'), '0.1.0', true );
 
+	}
+
+	public function menus() {
+		register_nav_menu( 'side-menu', __( 'Side Menu', 'mop2015' ) );
 	}
 
 }

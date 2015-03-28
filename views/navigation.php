@@ -5,10 +5,7 @@
 		<li class="visible-xs" role="presentation"><a href="<?php echo home_url('sermons'); ?>">Sermons</a></li>
 		<li class="visible-xs" role="presentation"><a href="<?php echo home_url('give'); ?>">Give</a></li>
 		<li class="visible-xs" role="presentation"><a href="<?php echo home_url('our-story'); ?>">Our Story</a></li>
-		<li><a href="#">Our Beliefs</a></li>
-		<li><a href="#">Leadership</a></li>
-		<li><a href="#">Ministries</a></li>
-		<li><a href="#">Contact Us</a></li>
+		<?php wp_nav_menu( array('menu' => 'Side Menu' )); ?>
 	</ul>
 </div>
 <div id="navigation">
