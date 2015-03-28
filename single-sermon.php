@@ -5,18 +5,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-		<div id="navigation">
-			<div class="row">
-				<h1 id="logo"><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/monument-logo-white.png" width="194" height="80" /></a></h1>
-				<ul id="location-menu" class="nav nav-pills pull-right">
-					<li class="hidden-xs" role="presentation"><a href="<?php echo home_url('watch'); ?>">Watch Live</a></li>
-					<li class="hidden-xs" role="presentation"><a href="<?php echo home_url('sermons'); ?>">Sermons</a></li>
-					<li class="hidden-xs" role="presentation"><a href="<?php echo home_url('give'); ?>">Give</a></li>
-					<li class="hidden-xs" role="presentation"><a href="<?php echo home_url('our-story'); ?>">Our Story</a></li>
-					<li role="presentation"><a href="#" class="open-menu">Menu <i class="fa fa-bars"></i></a></li>
-				</ul>
-			</div>
-		</div>
+		<?php get_template_part( 'views/navigation' ); ?>
 		<div id="hero-sermon" class="hero container-fluid" style="background-image: url(<?php echo wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ); ?>);">
 			<div class="sermon-player-hero row text-center">
 				<div id="sermon" class="jp-jplayer" data-audio-url="<?php echo get_post_meta( get_the_ID(), 'sermon_audio', true ); ?>" data-video-url="<?php echo get_post_meta( get_the_ID(), 'sermon_video', true ); ?>"></div>
