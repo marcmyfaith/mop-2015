@@ -84,10 +84,10 @@ jQuery('document').ready(function($){
 
 		if ( form_is_valid && ( trigger !== false ) ) {	
 
-			$( submit_button ).attr( 'disabled', true );
+			$( submit_button ).attr( 'disabled', true ).text('Processing...');
 
 			request = $.ajax({
-				url: freeform.ajax_url,
+				url: embee_stripe.ajax_url,
 				type: "POST",
 				data: $( form ).serialize(),
 				dataType: "JSON"
@@ -95,7 +95,7 @@ jQuery('document').ready(function($){
 
 			request.done( function( response ) {
 				
-				$( submit_button ).removeAttr( 'disabled' );
+				$( submit_button ).removeAttr( 'disabled' ).text('Done!');
 				
 				if ( response.success ) {
 
