@@ -20,6 +20,105 @@
 			</div>
 		</div>
 		<div class="hero container-fluid content">
+			<div style="max-width: 600px; margin: 0 auto;">
+				<form class="stripe-form" method="POST" style="padding: 0 20px;">
+					<div>
+						<h3>Contact Info</h3>
+						<div class="form-group stripe-field required">
+						    <label for="exampleInputEmail1">First Name</label>
+						    <input type="email" class="form-control" name="user[first_name]" placeholder="">
+						</div>
+						<div class="form-group stripe-field required">
+						    <label for="exampleInputEmail1">Last Name</label>
+						    <input type="email" class="form-control" name="user[last_name]" placeholder="">
+						</div>
+						<div class="form-group stripe-field required">
+						    <label for="exampleInputEmail1">Email address</label>
+						    <input type="email" class="form-control" name="user[email]" placeholder="">
+						</div>
+						<div class="form-group">
+						    <label for="exampleInputEmail1">Mobile Number</label>
+						    <input type="email" class="form-control mobile" name="user[meta][mobile]" placeholder="(336) 370-8583">
+						</div>
+						<div class="form-group stripe-field required">
+						    <label for="exampleInputEmail1">Zip Code</label>
+						    <input type="email" class="form-control" name="user[meta][zipcode]"  placeholder="27406" maxlength="5">
+						</div>
+					</div>
+					<div>
+						<h3>Giving</h3>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Item</th>
+									<th>Amount</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										Tithe
+										<input type="hidden" name="product_description[]" value="Tithe" />
+									</td>
+									<td>
+										<input type="text" name="product_amount[]" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Offering
+										<input type="hidden" name="product_description[]" value="Offering" />
+									</td>
+									<td>
+										<input type="text" name="product_amount[]" />
+									</td>
+								</tr>
+								<tr>
+									<tr>
+										<td><strong>Total</strong></td>
+										<td><span id="charge-total"><strong>$0.00</strong></span></td>
+									</tr>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div>
+						<h3>Debit/Credit Card</h3>
+						<div class="row" style="padding: 0;">
+							<div class="col-md-12" style="padding: 0;">
+								<div class="form-group">
+								    <label>Card Number</label>
+								    <input type="text" class="form-control" data-stripe="number" placeholder="" >
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-4" style="padding-left: 0;">
+								<div class="form-group">
+								    <label>Exp Month</label>
+								    <input type="text" class="form-control" data-stripe="exp-month" placeholder="MM" maxlength="2" >
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-4">
+								<div class="form-group">
+								    <label>Exp Year</label>
+								    <input type="text" class="form-control" data-stripe="exp-year" placeholder="YY" maxlength="2" >
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-4" style="padding-right: 0;">
+								<div class="form-group">
+								    <label>CVC Code</label>
+								    <input type="text" class="form-control" data-stripe="cvc" placeholder="123" maxlength="3" >
+								</div>
+							</div>
+						</div>
+					</div>
+					<input type="hidden" name="amount" value="" />
+					<input type="hidden" name="stripe_token" value="" />
+					<input type="hidden" name="action" value="proccess_credit_card" />
+					<button class="btn btn-default" type="submit">Give</button>
+				</form>
+			</div>
+		</div>
+		<div class="hero container-fluid content">
 			<div class="row text-center">
 				<h5>Why should I give?</h5>
 				<h2>Your giving produces tangible results</h2>
