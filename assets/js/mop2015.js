@@ -61,7 +61,7 @@ jQuery('document').ready(function($){
 	});
 
 	// Process the credit card
-	if ( embee_stripe.publishable_key ) {
+	if ( embee_stripe !== undefined && embee_stripe.publishable_key ) {
 		Stripe.setPublishableKey( embee_stripe.publishable_key );
 	} else {
 		alert('The form is not connected to the payment processor. Please contact the finance department.');
@@ -135,7 +135,7 @@ jQuery('document').ready(function($){
 		if ( ! form_is_valid ) {
 			alert( "Make sure you've filled in all required fields" );
 		}
-		
+
 		return form_is_valid;
 
 	}
