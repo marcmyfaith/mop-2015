@@ -14,7 +14,7 @@
 				<h3>Give</h3>
 				<!-- <p>To give you must have a FREE Monument of Praise account. This account allows you to give securely, review your giving history and comment on sermons.</p> -->
 				<!-- <p>To pay your tithes or offering complete the form below</p> -->
-				<p>We thank you for your desire to give and support the work we're doing in High Point, NC. The ability to give online will be made available on <strong>Sunday May 31st, 2015</strong>.</p>
+				<p>We thank you for your desire to give and support the work we're doing in High Point, NC. You may give securely using the form below. Please note that your credit card information is NOT stored on our servers, but safely with our credit card proccessor.</p>
 				<!-- <p><a class="btn btn-default white" href="<?php echo home_url('account?action=signin') ?>">Sign In to Give</a></p> -->
 				<!-- <p>Create an Account</p> -->
 			</div>
