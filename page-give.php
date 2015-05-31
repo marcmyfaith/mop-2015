@@ -26,11 +26,11 @@
 						<h3>Contact Info</h3>
 						<div class="form-group stripe-field required">
 						    <label for="exampleInputEmail1">First Name</label>
-						    <input type="email" class="form-control" name="user[first_name]" placeholder="">
+						    <input type="text" class="form-control" name="user[first_name]" placeholder="">
 						</div>
 						<div class="form-group stripe-field required">
 						    <label for="exampleInputEmail1">Last Name</label>
-						    <input type="email" class="form-control" name="user[last_name]" placeholder="">
+						    <input type="text" class="form-control" name="user[last_name]" placeholder="">
 						</div>
 						<div class="form-group stripe-field required">
 						    <label for="exampleInputEmail1">Email address</label>
@@ -38,11 +38,11 @@
 						</div>
 						<div class="form-group">
 						    <label for="exampleInputEmail1">Mobile Number</label>
-						    <input type="email" class="form-control mobile" name="user[meta][mobile]" placeholder="(336) 370-8583">
+						    <input type="tel" class="form-control mobile" name="user[meta][mobile]" placeholder="(336) 370-8583">
 						</div>
 						<div class="form-group stripe-field required">
 						    <label for="exampleInputEmail1">Zip Code</label>
-						    <input type="email" class="form-control" name="user[meta][zipcode]"  placeholder="27406" maxlength="5">
+						    <input type="number" class="form-control" name="user[meta][zipcode]"  placeholder="27406" maxlength="5">
 						</div>
 					</div>
 					<div>
@@ -61,7 +61,7 @@
 										<input type="hidden" name="product_description[]" value="Tithe" />
 									</td>
 									<td>
-										<input type="text" name="product_amount[]" />
+										<input type="number" name="product_amount[]" />
 									</td>
 								</tr>
 								<tr>
@@ -70,7 +70,7 @@
 										<input type="hidden" name="product_description[]" value="Offering" />
 									</td>
 									<td>
-										<input type="text" name="product_amount[]" />
+										<input type="number" name="product_amount[]" />
 									</td>
 								</tr>
 								<tr>
@@ -88,25 +88,25 @@
 							<div class="col-md-12" style="padding: 0;">
 								<div class="form-group">
 								    <label>Card Number</label>
-								    <input type="text" class="form-control" data-stripe="number" placeholder="" >
+								    <input type="number" class="form-control" data-stripe="number" placeholder="" >
 								</div>
 							</div>
 							<div class="col-md-4 col-xs-4" style="padding-left: 0;">
 								<div class="form-group">
 								    <label>Exp Month</label>
-								    <input type="text" class="form-control" data-stripe="exp-month" placeholder="MM" maxlength="2" >
+								    <input type="number" class="form-control" data-stripe="exp-month" placeholder="MM" maxlength="2" >
 								</div>
 							</div>
 							<div class="col-md-4 col-xs-4">
 								<div class="form-group">
 								    <label>Exp Year</label>
-								    <input type="text" class="form-control" data-stripe="exp-year" placeholder="YY" maxlength="2" >
+								    <input type="number" class="form-control" data-stripe="exp-year" placeholder="YY" maxlength="2" >
 								</div>
 							</div>
 							<div class="col-md-4 col-xs-4" style="padding-right: 0;">
 								<div class="form-group">
 								    <label>CVC Code</label>
-								    <input type="text" class="form-control" data-stripe="cvc" placeholder="123" maxlength="3" >
+								    <input type="number" class="form-control" data-stripe="cvc" placeholder="123" maxlength="3" >
 								</div>
 							</div>
 						</div>
