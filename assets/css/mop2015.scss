@@ -32,7 +32,7 @@ a {
 	color: inherit;
 	outline: none;
 
-	&:hover { 
+	&:hover {
 		text-decoration: none;
 	}
 
@@ -86,7 +86,7 @@ ul {
 	position: relative;
 
 	&.content {
-		
+
 		> .row {
 			max-width: 1000px;
 	  		margin: 0 auto;
@@ -100,8 +100,8 @@ ul {
 
 	h3 {
 		font-size: 50px;
-		text-transform: lowercase;
-		font-family: 'swistblnk_monthoersregular';
+		/*text-transform: lowercase;*/
+		/*font-family: 'swistblnk_monthoersregular';*/
 		font-weight: 200;
 		letter-spacing: 1px;
 	}
@@ -122,7 +122,7 @@ ul {
 	width: 100%;
 	z-index: 1000;
 	margin: 0;
-	font-family: 'swistblnk_monthoersregular';
+	/*font-family: 'swistblnk_monthoersregular';*/
 	text-transform: lowercase;
 	font-size: 22px;
 	letter-spacing: 0.5px;
@@ -144,7 +144,7 @@ ul {
 	}
 
 	a {
-		
+
 		&:hover {
 			background-color: transparent;
 			color: inherit;
@@ -167,7 +167,7 @@ ul {
 	right: -300px;
 	z-index: 99999;
 	transition: 1s;
-	font-family: 'swistblnk_monthoersregular';
+	/*font-family: 'swistblnk_monthoersregular';*/
 	text-transform: lowercase;
 	font-size: 22px;
 	letter-spacing: 0.5px;
@@ -240,7 +240,7 @@ ul {
 		z-index: 101;
 		bottom: 50px;
 		height: 91px;
-		margin: 0 50px;	
+		margin: 0 50px;
 	}
 
 	.overlay {
@@ -254,7 +254,7 @@ ul {
 	}
 
 	video {
-		width: 100%; 
+		width: 100%;
 		/*position: absolute;*/
 	}
 
@@ -280,7 +280,7 @@ ul {
 
 }
 
-#hero-sermon-series { 
+#hero-sermon-series {
 	background-color: $accent-color-one;
 	color: #fff;
 }
@@ -294,7 +294,7 @@ ul {
 	text-align: center;
 	margin: 0;
 
-	#sermon-player { 
+	#sermon-player {
 
 		.play-button {
 			font-size: 150px;
@@ -411,7 +411,7 @@ ul {
 		position: relative;
 		padding: 10px;
 		background-image: url(../images/mop-thumbnail-white.png);
-		background-position: center center; 
+		background-position: center center;
 		background-repeat: no-repeat;
 
 		> div {
@@ -442,7 +442,7 @@ ul {
 		}
 
 		.background {
-			background-position: center center; 
+			background-position: center center;
 			background-repeat: no-repeat;
 			z-index: 0;
 			background-color: #333;
@@ -515,7 +515,7 @@ ul {
 			background-color: #333;
 			padding: 50px 0;
 			border-radius: 5px 0 0 5px;
-			height: 100%;	
+			height: 100%;
 			position: absolute;
 
 			#next-event-month {
@@ -623,7 +623,7 @@ ul {
 	a {
 		color: $accent-color-one;
 	}
-	
+
 	#location-menu {
 		list-style: none;
 		margin: 0;
@@ -639,7 +639,7 @@ ul {
 				line-height: 44px;
 			}
 
-			&:last-of-type { 
+			&:last-of-type {
 				margin: 0;
 			}
 

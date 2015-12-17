@@ -60,8 +60,8 @@ ul {
     text-transform: uppercase; }
   .container-fluid h3 {
     font-size: 50px;
-    text-transform: lowercase;
-    font-family: 'swistblnk_monthoersregular';
+    /*text-transform: lowercase;*/
+    /*font-family: 'swistblnk_monthoersregular';*/
     font-weight: 200;
     letter-spacing: 1px; }
 
@@ -78,7 +78,7 @@ ul {
   width: 100%;
   z-index: 1000;
   margin: 0;
-  font-family: 'swistblnk_monthoersregular';
+  /*font-family: 'swistblnk_monthoersregular';*/
   text-transform: lowercase;
   font-size: 22px;
   letter-spacing: 0.5px;
@@ -107,7 +107,7 @@ ul {
   right: -300px;
   z-index: 99999;
   transition: 1s;
-  font-family: 'swistblnk_monthoersregular';
+  /*font-family: 'swistblnk_monthoersregular';*/
   text-transform: lowercase;
   font-size: 22px;
   letter-spacing: 0.5px; }
