@@ -15,12 +15,12 @@
 				<source src="<?php echo get_template_directory_uri(); ?>/assets/video/sunday-morning.mp4" type="video/mp4">
 			</video>
 		</div>
-		<div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri(); ?>/assets/images/sheep.jpg"></div>
+		<div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri(); ?>/assets/images/bible-picnic.jpg"></div>
 		<div id="hero-sermon-series" class="hero container-fluid">
 			<div class="row text-center">
 				<h5>Current Sermon Series</h5>
-				<h3>Redemption</h3>
-				<p>In preparation for the Easter Holy Day, Dr. Williams imparts a life changing word about the death, burial and resurrection of our Lord and Savior, Jesus Christ.</p>
+				<h3>Principles</h3>
+				<p>Visit us as Dr. Williams imparts a life changing word about "Principles", laws God has ordained for maximum life benefits.</p>
 				<a class="btn btn-default white" href="<?php echo home_url('sermons'); ?>">Sermons</a>
 			</div>
 		</div>
