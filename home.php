@@ -15,6 +15,7 @@
 				<source src="<?php echo get_template_directory_uri(); ?>/assets/video/sunday-morning.mp4" type="video/mp4">
 			</video>
 		</div>
+		<?php echo do_shortcode('[upcoming_event]'); ?>
 		<div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri(); ?>/assets/images/bible-picnic.jpg"></div>
 		<div id="hero-sermon-series" class="hero container-fluid">
 			<div class="row text-center">
