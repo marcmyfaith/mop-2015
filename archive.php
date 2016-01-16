@@ -19,10 +19,10 @@
 							<div class="col-md-12 col-sm-12">
 								<h2>
 									<a href="<?php echo get_permalink(); ?>"><?php echo the_title(); ?></a> <br>
-									<small><span class="glyphicon glyphicon-calendar"></span> Sunday January 17, 2016 at 6:00PM</small>
+									<small><span class="glyphicon glyphicon-calendar"></span> <?php echo get_the_date(); ?></small>
 								</h2>
-								<p>You Are Unstoppable in 2016! Meet us at ALPHA Revival 2016 for a New Beginning in your Faith, in your Family, in your Legacy. ALPHA Revival will be January 17th-22nd at New Jerusalem
-								</p><p><a class="read_more" href="http://newjc.org/events/2016/01/alpha-revival/">Read More</a></p>
+								<?php the_excerpt(); ?>
+								</p><p><a class="read_more" href="<?php echo get_permalink(); ?>">Read More</a></p>
 							</div>
 						</article>
 					<?php endwhile; else : ?>
