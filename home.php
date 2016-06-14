@@ -9,13 +9,25 @@
 	</head>
 	<body>
 		<?php get_template_part( 'views/navigation' ); ?>
-		<div id="hero-video" class="hero container-fluid ">
+		<div id="billboard" class="container-fluid" style="padding-top: 90px; background-image: url('http://newjc.org/wp-content/themes/newjc-theme-2014/assets/img/universoul-circus-event.jpg'); background-size: cover; background-position: center; min-height: 700px;">
+	         <div class="container">
+	            <div class="row">
+	               <div class="col-md-12 text-center" style="color: #fff;">
+	                  <img src="http://newjc.org/wp-content/themes/newjc-theme-2014/assets/img/universoul-circus-logo.png" style="max-width: 300px;" />
+	                  <h1 style="text-shadow: 1px 1px 1px #000;">MOP Family &amp; Friends Night at the Universoul Circus</h1>
+	                  <p style="text-shadow: 1px 1px 1px #000;">Wednesday June 22nd our Pastor, Dr. Kevin Williams will be the Guest Ringmaster along with the Praise Team. You don't want to miss this family affair!</p>
+	                  <p><a class="btn btn-warning btn-lg" role="button" href="http://newjc.org/product/universoul-circus-ticket/" style="background-color: #272262; border-color: #fef200; color: #fff;">Purchase Tickets</a></p>
+	               </div>
+	            </div>
+	         </div>
+	    </div>
+		<!-- <div id="hero-video" class="hero container-fluid ">
 			<?php get_template_part( 'views/sermon', 'hero' ); ?>
 			<div class="overlay"></div>
 			<video id="video-background" autoplay loop poster="">
 				<source src="<?php echo get_template_directory_uri(); ?>/assets/video/sunday-morning.mp4" type="video/mp4">
 			</video>
-		</div>
+		</div> -->
 		<?php echo do_shortcode('[upcoming_event]'); ?>
 		<div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo get_template_directory_uri(); ?>/assets/images/bible-picnic.jpg"></div>
 		<div id="hero-sermon-series" class="hero container-fluid">
