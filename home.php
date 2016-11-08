@@ -8,6 +8,8 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
+		<img src="https://t.visto1.net/e?adv=392&ca=0&acc=62&tag=L2586" />
+		<img src="https://t.visto1.net/rt?adv=392&ca=0&acc=62&tag=R2585" />
 		<?php get_template_part( 'views/navigation' ); ?>
 		<!-- <div id="billboard" class="container-fluid" style="padding-top: 90px; background-image: url('http://newjc.org/wp-content/themes/newjc-theme-2014/assets/img/universoul-circus-event.jpg'); background-size: cover; background-position: center; min-height: 700px;">
 	         <div class="container">
