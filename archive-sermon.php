@@ -9,8 +9,8 @@
 		<div id="hero-sermon-series" class="hero container-fluid pad-top">
 			<div class="row text-center">
 				<h5>Current Sermon Series</h5>
-				<h3>Faith</h3>
-				<p>Dr. Williams is teaching a life changing word about "Faith".</p>
+				<h3>Kingdom Mindset</h3>
+				<p>Dr. Williams is teaching a life changing word about "Kingdom Mindset".</p>
 				<p>Visit us this Sunday to experience this word for yourself.</p>
 			</div>
 		</div>

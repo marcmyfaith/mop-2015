@@ -16,7 +16,7 @@
 			<h3>Contact Info</h3>
 			<ul>
 				<li>info@monumentofpraise.org</li>
-				<li>(336) 887-5673</li>
+				<li>(336) 885-5673</li>
 			</ul>
 		</div>
 		<div class="col-md-3">

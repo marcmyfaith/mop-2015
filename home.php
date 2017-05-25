@@ -35,8 +35,8 @@
 		<div id="hero-sermon-series" class="hero container-fluid">
 			<div class="row text-center">
 				<h5>Current Sermon Series</h5>
-				<h3>Faith</h3>
-				<p>Visit us as Dr. Williams imparts a life changing word about "Faith", and learn how God has made you unstoppable in 2016.</p>
+				<h3>Kingdom Mindset</h3>
+				<p>Visit us as Dr. Williams imparts a life changing word about "Kingdom Mindset", and learn how God has made you unstoppable in 2016.</p>
 				<a class="btn btn-default white" href="<?php echo home_url('sermons'); ?>">Sermons</a>
 			</div>
 		</div>
